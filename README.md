@@ -25,7 +25,9 @@ Para verificar que versión tienen instalada:
 Una vez clonado el repositorio abrir con Visual Studio Code la consola:
 
 > Control + Ñ
+
 > Npm install
+
 > Npm run dev
 
 Todo Listo!!
