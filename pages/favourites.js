@@ -5,12 +5,10 @@ import Cards from "../components/Cards/Cards";
 import Navbar from "../components/Navbar/Navbar";
 
 export default function Favourites() {
-  const dispatch = useDispatch()
-  const favourites = useSelector((state) => state.favourites)
+  const dispatch = useDispatch();
+  const favourites = useSelector((state) => state.favourites);
 
-  useEffect(()=> {
-
-  },[dispatch])
+  useEffect(() => {}, [dispatch]);
 
   return (
     <div>
@@ -20,8 +18,12 @@ export default function Favourites() {
         <link rel="icon" href="/moony.jpg" />
       </Head>
       <main>
-          <Navbar/>
-          {favourites.length ===0 ? <h1 style={{textAlign: "center"}}>No tienes favoritos aun.</h1> : <Cards elements={favourites}/>}
+        <Navbar />
+        {favourites.length === 0 ? (
+          <h1 style={{ textAlign: "center" }}>No tienes favoritos aun.</h1>
+        ) : (
+          <Cards elements={favourites} />
+        )}
       </main>
     </div>
   );
