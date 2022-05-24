@@ -20,7 +20,7 @@ export default function Favourites() {
       <main>
         <Navbar />
         {favourites.length === 0 ? (
-          <h1 style={{ textAlign: "center" }}>No tienes favoritos aun.</h1>
+          <h1 style={{ textAlign: "center" , fontSize: "20px"}}>No tienes favoritos aun.</h1>
         ) : (
           <Cards elements={favourites} />
         )}

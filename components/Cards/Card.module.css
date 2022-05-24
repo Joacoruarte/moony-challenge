@@ -76,7 +76,7 @@
     color: rgb(223, 58, 58);
     background-color: rgb(250, 250, 250);
     border-radius: 9999px;
-    transition: all 500ms;
+    transition: all 200ms;
 }
 
 .heartActive:hover{
