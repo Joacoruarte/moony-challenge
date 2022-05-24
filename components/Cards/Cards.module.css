@@ -1,0 +1,28 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1110px){ 
+    .cardsContainer{
+        grid-template-columns: 350px 350px;
+    }
+}
+@media (max-width: 743px){ 
+    .cardsContainer{
+        grid-template-columns: 350px;
+    }
+}
+@media (max-width: 414px){ 
+    .cardsContainer{
+        margin-left: 7rem;
+    }
+}
+@media (max-width: 280px){ 
+    .cardsContainer{
+        margin-left: 9rem;
+    }
+}

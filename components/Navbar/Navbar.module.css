@@ -1,0 +1,72 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.divMoonyImg{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.divMoonyImg h3{
+   color: #fff;
+}
+
+.moonyImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+    border: none;
+}
+
+.linksContainer{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+.linksContainer > a{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linksContainer > svg{
+    line-height: 50px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+@media (max-width: 515px){
+    .headerContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 125%;
+    }
+    .linksContainer{
+        margin-right: 0rem;
+    }
+}
+@media (max-width: 393px){
+    .headerContainer{
+        width: 130%;
+    }
+    .linksContainer{
+        margin-right: 0rem;
+    }
+}
+@media (max-width: 280px){
+    .headerContainer{
+        width: 150%;
+    }
+}
